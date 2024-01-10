@@ -1,0 +1,38 @@
+:root{
+    --colorFondo:rgb(235, 245, 251 );
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.logo_python{
+    width: 10%;
+    float: left;
+    padding: 8px;
+    
+}
+
+ul,li{
+    list-style: none;
+   display: inline-block;
+}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+           
+    }
+
+
+.contenedor{
+    background-image: url(im1.jpeg);
+    height: 100vh;
+    background-size: cover; /* Muestra la imagen completa, manteniendo su relación de aspecto y cubriendo todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat;
+}
